@@ -49,4 +49,13 @@ public abstract class Produto {
     public double getValorBase() {
         return valorBase;
     }
+
+    public void gerarRelatorio(){
+        System.out.println("Descrição: " + this.getDescricao());
+        System.out.println("Valor Base: " + this.getValorBase());
+        System.out.println("Imposto Estadual: " + this.calcularImpostoEstadual());
+        System.out.println("Tributos Totais: " + this.calcularTributosTotais());
+        System.out.println("Preço Final: " + this.calcularPrecoFinal());
+        System.out.println();
+    }
 }

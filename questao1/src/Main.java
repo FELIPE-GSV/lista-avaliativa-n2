@@ -39,20 +39,20 @@ public class Main {
                     opcao = 0;
                     break;
                 case 2:
-//                    System.out.print("Descrição: ");
-//                    descricao = s.nextLine();
-//                    System.out.print("Valor Base: ");
-//                    valorBase = s.nextDouble();
-//                    controlador.cadastrarProdutoNacional(descricao, valorBase);
+                    System.out.print("Descrição: ");
+                    descricao = s.nextLine();
+                    System.out.print("Valor Base: ");
+                    valorBase = s.nextDouble();
+                    controlador.cadastrarProdutoNacional(descricao, valorBase);
                     opcao = 0;
                     break;
 
                 case 3:
-                    //                    System.out.print("Descrição: ");
-//                    descricao = s.nextLine();
-//                    System.out.print("Valor Base: ");
-//                    valorBase = s.nextDouble();
-//                    controlador.cadastrarProdutoNacional(descricao, valorBase);
+                    System.out.print("Descrição: ");
+                    descricao = s.nextLine();
+                    System.out.print("Valor Base: ");
+                    valorBase = s.nextDouble();
+                    controlador.cadastrarProdutoImportado(descricao, valorBase);
                     opcao = 0;
                     break;
                 case 4:
@@ -61,11 +61,11 @@ public class Main {
                     opcao = 0;
                     break;
                 case 5:
-//                    controlador.exibirProdutosNacionais();
+                    controlador.exibirProdutosNacionais();
                     opcao = 0;
                     break;
                 case 6:
-//                    controlador.exibirProdutosImportados();
+                    controlador.exibirProdutosImportados();
                     opcao = 0;
                     break;
                 case 7:
